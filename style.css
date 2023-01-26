@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    background-color: cornflowerblue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    margin: 20px 10px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#btn-submit {
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    animation: move 1s ;
+}
+
